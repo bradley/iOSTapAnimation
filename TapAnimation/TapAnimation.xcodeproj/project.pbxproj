@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA83CF017B16F7C003310D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83CEF17B16F7C003310D3 /* Foundation.framework */; };
+		ADA83CF217B16F7C003310D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83CF117B16F7C003310D3 /* CoreGraphics.framework */; };
+		ADA83CF417B16F7C003310D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83CF317B16F7C003310D3 /* UIKit.framework */; };
+		ADA83CF617B16F7C003310D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83CF517B16F7C003310D3 /* CoreData.framework */; };
+		ADA83CFC17B16F7C003310D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA83CFA17B16F7C003310D3 /* InfoPlist.strings */; };
+		ADA83CFE17B16F7C003310D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA83CFD17B16F7C003310D3 /* main.m */; };
+		ADA83D0217B16F7C003310D3 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA83D0117B16F7C003310D3 /* TAAppDelegate.m */; };
+		ADA83D0517B16F7C003310D3 /* TapAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA83D0317B16F7C003310D3 /* TapAnimation.xcdatamodeld */; };
+		ADA83D0717B16F7C003310D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA83D0617B16F7C003310D3 /* Images.xcassets */; };
+		ADA83D0E17B16F7C003310D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83D0D17B16F7C003310D3 /* XCTest.framework */; };
+		ADA83D0F17B16F7C003310D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83CEF17B16F7C003310D3 /* Foundation.framework */; };
+		ADA83D1017B16F7C003310D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83CF317B16F7C003310D3 /* UIKit.framework */; };
+		ADA83D1117B16F7C003310D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83CF517B16F7C003310D3 /* CoreData.framework */; };
+		ADA83D1917B16F7C003310D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA83D1717B16F7C003310D3 /* InfoPlist.strings */; };
+		ADA83D1B17B16F7C003310D3 /* TapAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA83D1A17B16F7C003310D3 /* TapAnimationTests.m */; };
+		ADA83D2817B1701C003310D3 /* TATapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA83D2617B16FFC003310D3 /* TATapViewController.m */; };
+		ADA83D2917B1701F003310D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA83D2417B16F9D003310D3 /* MainStoryboard.storyboard */; };
+		ADA83D2B17B170FB003310D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA83D2A17B170FB003310D3 /* QuartzCore.framework */; };
+		ADA83D3117B1E402003310D3 /* TARingCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA83D3017B1E3C4003310D3 /* TARingCreator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA83D1217B16F7C003310D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA83CE417B16F7C003310D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA83CEB17B16F7C003310D3;
+			remoteInfo = TapAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA83CEC17B16F7C003310D3 /* TapAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA83CEF17B16F7C003310D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADA83CF117B16F7C003310D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADA83CF317B16F7C003310D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADA83CF517B16F7C003310D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ADA83CF917B16F7C003310D3 /* TapAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapAnimation-Info.plist"; sourceTree = "<group>"; };
+		ADA83CFB17B16F7C003310D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADA83CFD17B16F7C003310D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADA83CFF17B16F7C003310D3 /* TapAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		ADA83D0017B16F7C003310D3 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		ADA83D0117B16F7C003310D3 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		ADA83D0417B16F7C003310D3 /* TapAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TapAnimation.xcdatamodel; sourceTree = "<group>"; };
+		ADA83D0617B16F7C003310D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADA83D0C17B16F7C003310D3 /* TapAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA83D0D17B16F7C003310D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADA83D1617B16F7C003310D3 /* TapAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		ADA83D1817B16F7C003310D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADA83D1A17B16F7C003310D3 /* TapAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapAnimationTests.m; sourceTree = "<group>"; };
+		ADA83D2417B16F9D003310D3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ADA83D2517B16FFC003310D3 /* TATapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TATapViewController.h; sourceTree = "<group>"; };
+		ADA83D2617B16FFC003310D3 /* TATapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TATapViewController.m; sourceTree = "<group>"; };
+		ADA83D2A17B170FB003310D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADA83D2F17B1E3C4003310D3 /* TARingCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TARingCreator.h; sourceTree = "<group>"; };
+		ADA83D3017B1E3C4003310D3 /* TARingCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TARingCreator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA83CE917B16F7C003310D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA83D2B17B170FB003310D3 /* QuartzCore.framework in Frameworks */,
+				ADA83CF217B16F7C003310D3 /* CoreGraphics.framework in Frameworks */,
+				ADA83CF617B16F7C003310D3 /* CoreData.framework in Frameworks */,
+				ADA83CF417B16F7C003310D3 /* UIKit.framework in Frameworks */,
+				ADA83CF017B16F7C003310D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA83D0917B16F7C003310D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA83D0E17B16F7C003310D3 /* XCTest.framework in Frameworks */,
+				ADA83D1117B16F7C003310D3 /* CoreData.framework in Frameworks */,
+				ADA83D1017B16F7C003310D3 /* UIKit.framework in Frameworks */,
+				ADA83D0F17B16F7C003310D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA83CE317B16F7C003310D3 = {
+			isa = PBXGroup;
+			children = (
+				ADA83CF717B16F7C003310D3 /* TapAnimation */,
+				ADA83D1417B16F7C003310D3 /* TapAnimationTests */,
+				ADA83CEE17B16F7C003310D3 /* Frameworks */,
+				ADA83CED17B16F7C003310D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA83CED17B16F7C003310D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA83CEC17B16F7C003310D3 /* TapAnimation.app */,
+				ADA83D0C17B16F7C003310D3 /* TapAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA83CEE17B16F7C003310D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA83D2A17B170FB003310D3 /* QuartzCore.framework */,
+				ADA83CEF17B16F7C003310D3 /* Foundation.framework */,
+				ADA83CF117B16F7C003310D3 /* CoreGraphics.framework */,
+				ADA83CF317B16F7C003310D3 /* UIKit.framework */,
+				ADA83CF517B16F7C003310D3 /* CoreData.framework */,
+				ADA83D0D17B16F7C003310D3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA83CF717B16F7C003310D3 /* TapAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				ADA83D0017B16F7C003310D3 /* TAAppDelegate.h */,
+				ADA83D0117B16F7C003310D3 /* TAAppDelegate.m */,
+				ADA83D2517B16FFC003310D3 /* TATapViewController.h */,
+				ADA83D2617B16FFC003310D3 /* TATapViewController.m */,
+				ADA83D2F17B1E3C4003310D3 /* TARingCreator.h */,
+				ADA83D3017B1E3C4003310D3 /* TARingCreator.m */,
+				ADA83D2417B16F9D003310D3 /* MainStoryboard.storyboard */,
+				ADA83D0617B16F7C003310D3 /* Images.xcassets */,
+				ADA83D0317B16F7C003310D3 /* TapAnimation.xcdatamodeld */,
+				ADA83CF817B16F7C003310D3 /* Supporting Files */,
+			);
+			path = TapAnimation;
+			sourceTree = "<group>";
+		};
+		ADA83CF817B16F7C003310D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA83CF917B16F7C003310D3 /* TapAnimation-Info.plist */,
+				ADA83CFA17B16F7C003310D3 /* InfoPlist.strings */,
+				ADA83CFD17B16F7C003310D3 /* main.m */,
+				ADA83CFF17B16F7C003310D3 /* TapAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA83D1417B16F7C003310D3 /* TapAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA83D1A17B16F7C003310D3 /* TapAnimationTests.m */,
+				ADA83D1517B16F7C003310D3 /* Supporting Files */,
+			);
+			path = TapAnimationTests;
+			sourceTree = "<group>";
+		};
+		ADA83D1517B16F7C003310D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA83D1617B16F7C003310D3 /* TapAnimationTests-Info.plist */,
+				ADA83D1717B16F7C003310D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA83CEB17B16F7C003310D3 /* TapAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA83D1E17B16F7C003310D3 /* Build configuration list for PBXNativeTarget "TapAnimation" */;
+			buildPhases = (
+				ADA83CE817B16F7C003310D3 /* Sources */,
+				ADA83CE917B16F7C003310D3 /* Frameworks */,
+				ADA83CEA17B16F7C003310D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapAnimation;
+			productName = TapAnimation;
+			productReference = ADA83CEC17B16F7C003310D3 /* TapAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA83D0B17B16F7C003310D3 /* TapAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA83D2117B16F7C003310D3 /* Build configuration list for PBXNativeTarget "TapAnimationTests" */;
+			buildPhases = (
+				ADA83D0817B16F7C003310D3 /* Sources */,
+				ADA83D0917B16F7C003310D3 /* Frameworks */,
+				ADA83D0A17B16F7C003310D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA83D1317B16F7C003310D3 /* PBXTargetDependency */,
+			);
+			name = TapAnimationTests;
+			productName = TapAnimationTests;
+			productReference = ADA83D0C17B16F7C003310D3 /* TapAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA83CE417B16F7C003310D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bradley Griffith";
+				TargetAttributes = {
+					ADA83D0B17B16F7C003310D3 = {
+						TestTargetID = ADA83CEB17B16F7C003310D3;
+					};
+				};
+			};
+			buildConfigurationList = ADA83CE717B16F7C003310D3 /* Build configuration list for PBXProject "TapAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADA83CE317B16F7C003310D3;
+			productRefGroup = ADA83CED17B16F7C003310D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA83CEB17B16F7C003310D3 /* TapAnimation */,
+				ADA83D0B17B16F7C003310D3 /* TapAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA83CEA17B16F7C003310D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA83D2917B1701F003310D3 /* MainStoryboard.storyboard in Resources */,
+				ADA83CFC17B16F7C003310D3 /* InfoPlist.strings in Resources */,
+				ADA83D0717B16F7C003310D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA83D0A17B16F7C003310D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA83D1917B16F7C003310D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA83CE817B16F7C003310D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA83CFE17B16F7C003310D3 /* main.m in Sources */,
+				ADA83D2817B1701C003310D3 /* TATapViewController.m in Sources */,
+				ADA83D3117B1E402003310D3 /* TARingCreator.m in Sources */,
+				ADA83D0517B16F7C003310D3 /* TapAnimation.xcdatamodeld in Sources */,
+				ADA83D0217B16F7C003310D3 /* TAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA83D0817B16F7C003310D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA83D1B17B16F7C003310D3 /* TapAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA83D1317B16F7C003310D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA83CEB17B16F7C003310D3 /* TapAnimation */;
+			targetProxy = ADA83D1217B16F7C003310D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA83CFA17B16F7C003310D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA83CFB17B16F7C003310D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADA83D1717B16F7C003310D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA83D1817B16F7C003310D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA83D1C17B16F7C003310D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADA83D1D17B16F7C003310D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA83D1F17B16F7C003310D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAnimation/TapAnimation-Prefix.pch";
+				INFOPLIST_FILE = "TapAnimation/TapAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADA83D2017B16F7C003310D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAnimation/TapAnimation-Prefix.pch";
+				INFOPLIST_FILE = "TapAnimation/TapAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADA83D2217B16F7C003310D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapAnimation.app/TapAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAnimation/TapAnimation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TapAnimationTests/TapAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADA83D2317B16F7C003310D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapAnimation.app/TapAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAnimation/TapAnimation-Prefix.pch";
+				INFOPLIST_FILE = "TapAnimationTests/TapAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA83CE717B16F7C003310D3 /* Build configuration list for PBXProject "TapAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA83D1C17B16F7C003310D3 /* Debug */,
+				ADA83D1D17B16F7C003310D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA83D1E17B16F7C003310D3 /* Build configuration list for PBXNativeTarget "TapAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA83D1F17B16F7C003310D3 /* Debug */,
+				ADA83D2017B16F7C003310D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADA83D2117B16F7C003310D3 /* Build configuration list for PBXNativeTarget "TapAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA83D2217B16F7C003310D3 /* Debug */,
+				ADA83D2317B16F7C003310D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADA83D0317B16F7C003310D3 /* TapAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADA83D0417B16F7C003310D3 /* TapAnimation.xcdatamodel */,
+			);
+			currentVersion = ADA83D0417B16F7C003310D3 /* TapAnimation.xcdatamodel */;
+			path = TapAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADA83CE417B16F7C003310D3 /* Project object */;
+}
